@@ -1,0 +1,83 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document}
+
+\name{Zo\"{e} E. Gagnon}
+% \address used twice to have two lines of address
+\address{2020 Lawrence St \#830, Denver CO 80205}
+\address{720-301-4407 / zoe@zgagnon.com}
+
+ 
+\begin{resume}
+ 
+\section{EDUCATION} {\sl Bachelor of Science,} Computer Science \\
+                % \sl will be bold italic in New Century Schoolbook (or
+	        % any postscript font) and just slanted in
+		% Computer Modern (default) font
+               Metropolitan State University of Denver, Denver CO, 2010 \\
+               Minor: Mathematics
+ 
+\section{EXPERIENCE}
+{\sl Scala Developer} \hfil October 2013 - Current\\
+Placeable, Denver CO
+\begin{itemize} \itemsep -2pt
+\item Created a system for generic data manipulation and export in a Play 2.2 based service.
+\item Developed and implemented a migration path from multiple Play instances to a clustered Akka actor system, using Mongo
+capped collections as an event bus.
+\item Created documentation of API for internal and external use.
+\end{itemize}
+Technology keywords: Scala, Play 2.2, SBT, Akka, MongoDB, Git, Cucumber
+
+ {\sl Software Engineer} \hfill Aug 2011 - Aug 2013 \\
+	      ClickFox, Denver CO
+                 \begin{itemize}  \itemsep -2pt % reduce space between items
+                 \item Developed and maintained industry-leading cross-channel business analysis tools in Java using distributed GreenPlum databases and GridGain compute grids.
+                \item Drove adoption of modern tools and practices, including best practices of Mercurial source control and Maven build tool, 
+                and integration of Jenkins build server with Redmine issue tracking.
+   	    \item  Championed usage of agile methodologies, including the recent adoption of a two-week sprint and test driven development.
+\end{itemize}
+	Technology keywords: Java, Tomcat, Hibernate, JDBC, JSON, BlazeDS, Postgresql, GreenPlum, GridGain, Mercurial, Maven, Jenkins CI
+                
+ 
+                {\sl Java Engineer} \hfill          Aug 2010- May 2011 \\
+                Innoprise Software, Broomfield CO
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Lead developer on a time-card entry system presented in the Eclipse Rich Application Platform, hosted using GlassFish OSGI, to integrate with the
+		Innoprise enterprise resource planning tools.
+\end{itemize} 
+	     Technology keywords: Java, GlassFish, Eclipse, Eclipse RAP
+                
+
+                {\sl Lead Software Quality Assurance / Software Developer} \hfill        Mar 2009 - Aug 2011 \\
+                Regis Learning Solutions, Inc (now The Regis Company), Golden CO
+                  \begin{itemize}  \itemsep -2pt %reduce space between items
+                   \item Developed and implemented test plans for e-learning software. Testing involved creating test scripts on GUI intensive applications, and exploratory testing in identified problem areas.
+		\item Added Section 508 Accessibility compliance to a SCORM framework in ActionScript 3.
+		\item Created tools to quickly visualize XML configuration files using Java 6.   
+    \end{itemize} 
+		Technology keywords: ActionScript 3, manual testing, Java, XML, SCORM, Section 508
+            
+ \section{COMPUTER \\ SKILLS} {\sl Professional use:} Java, ActionScript3, SQL(Postgres), Maven, Mercurial, Jenkins, Linux, Tomcat, OSGI, SCORM, XML, Bash, GreenPlum, GridGain, PL/Java, Scala, Spring, Guice, Apache CFX, JDBC,  \\
+                {\sl Open Source and Private use:} Ruby/Rails, Common Lisp, Clojure, C, Perl5, \LaTeX \\
+
+
+\section{GROUPS AND ACTIVITIES}        
+\begin{itemize}   \itemsep -2pt %reduce space between items
+          \item Charter member; Treasurer: Art of Code computer technology discussion group. We foster continuing education and networking for students and alumni of the Auraria Higher Education Center schools (Community College of Denver, Metropolitan State University of Denver, University of Colorado at Denver).
+\item	Association of Computing Machinery
+\item Bike Colorado bicycle ride and Facebook group.
+\end{itemize}
+ 
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
